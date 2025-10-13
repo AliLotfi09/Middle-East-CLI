@@ -91,7 +91,12 @@ This will install all required packages including:
 
 ### Step 3: Verify Installation
 ```bash
-node index.js
+node main.js
+```
+
+## Step 4: Run project
+```bash
+npm start
 ```
 
 You should see the map rendered in your terminal with sample events!
