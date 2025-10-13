@@ -1,0 +1,29 @@
+{
+  "name": "middle-east-cli",
+  "version": "3.0.0",
+  "description": "Real-time Middle East Conflict Monitoring System with Event-Driven Architecture",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "keywords": [
+    "news",
+    "monitor",
+    "middle-east",
+    "nlp",
+    "analytics",
+    "real-time",
+    "event-driven"
+  ],
+  "author": "Ali Lotfi",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
