@@ -1,4 +1,4 @@
-// main.js - Real-time Event-Driven Monitor
+#!/usr/bin/env node
 import { MiddleEastMap } from './map-generator.js';
 import { NewsAnalyzer } from './news-analyzer.js';
 import chalk from 'chalk';

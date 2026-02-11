@@ -4,6 +4,9 @@
   "description": "Real-time Middle East Conflict Monitoring System with Event-Driven Architecture",
   "main": "main.js",
   "type": "module",
+  "bin": {
+    "mideast": "./main.js"
+  },
   "scripts": {
     "start": "node main.js",
     "dev": "node --watch main.js"
